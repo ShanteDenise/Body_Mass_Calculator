@@ -1,33 +1,121 @@
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
+  /* background-color:#1a237e; */
+  background: -webkit-linear-gradient(left top, rgb(57, 76, 247), rgb(56, 103, 255)); 
+  background: linear-gradient(to bottom right, rgb(65, 247, 238), rgb(56, 103, 255));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card .card-content{
+  box-shadow: 0px 2px 45px 8px rgb(43, 109, 195);
+  background: #2B2D41;
+  color: #4E5279;
 }
 
-.App-link {
-  color: #61dafb;
+.fas{
+  font-size: 50px;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.sex-orientation{
+  display: flex; 
+  
+}
+.sex{
+  width: 100px;
+  height: 100px;
+  /* background-color: white; */
+  background: #2B2D41;
+  color: #4E5279;
+  margin:20px; 
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.female:hover{
+  transition-duration: 0.5s;
+  background-color: rgb(228, 36, 132);
+  border: solid 2px #2B2D41;
+  color:#2B2D41;
+  background:#4E5279;
+}
+ 
+
+.male:hover{
+  transition-duration: 0.5s;
+  background-color: rgb(19, 64, 212);
+  border: solid 2px #2B2D41;
+  color:#2B2D41;
+  background:#4E5279;
+}
+.weightCalc{
+  color: rgba(128, 128, 128, 0.425);
+  text-align: center;
+}
+
+.btn{
+  background-color: #4E5279
+}
+.btn:hover:focus{
+  background: linear-gradient(to bottom right, rgb(65, 77, 247), rgb(56, 103, 255));
+}
+
+
+Button{
+  margin-left: 25%;
+}
+::placeholder {
+  color: grey;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input{
+ color: white;
+ font-weight: 700;
+ font-size: 25px!important;
+}
+
+.bmi-text{
+  text-align: center;
+}
+.underweight{
+  color: #3498DB;
+}
+.normal{
+  color: rgb(97, 218, 97);
+}
+.obese{
+  color: red;
+}
+.overweight{
+  color: orange;
+}
+
+.title-of-app{
+  transform: translateY(-40px);
+  color:white;
+    font-weight:bold;
+    text-transform:uppercase;
+    text-align:center;
+    position:relative;
+    font-family:"Poppins",sans-serif;
+    text-shadow:0 1px 0 #239ad1f5,
+                0 2px 0 #12c7e7f6,
+                0 3px 0 #0dbfebf6,
+                0 4px 0 #0cbcf1ef,
+                0 5px 0 #10c2eef1,
+                0 6px 0 #0f9aebda,
+                0 7px 0 #0b9bdd,
+                0 8px 0 #0ba5ec,
+                11px 16px 20px #00000052;
+  
 }
