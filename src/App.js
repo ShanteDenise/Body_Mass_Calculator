@@ -21,7 +21,6 @@ class App extends Component {
   state = {
     female: false,
     male: false,
-    height: 0,
     feet: 0,
     inches: 0,
     weight: 0,
